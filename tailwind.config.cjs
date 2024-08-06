@@ -20,10 +20,20 @@ module.exports = withMT({
         arial: ["Arial", "sans-serif"],
         helvetica: ["Helvetica", "sans-serif"],
       },
+
+      backgroundImage: {
+        banner1: "url('./src/assets/images/banner1.jpg')",
+        banner2: "url('./src/assets/images/banner2.jpg')",
+        banner3: "url('./src/assets/images/banner3.jpg')",
+        banner4: "url('./src/assets/images/banner4.jpg')",
+      },
       colors: {
+        "custom-black": "rgba(28, 28, 28, 0.1)",
         black: "#111",
         grayColor: "#838383",
         bodyColor: "#f5f5f5",
+        titleColor: "#1c1c1c",
+        redColor: "#e13439",
       },
     },
   },

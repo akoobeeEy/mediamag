@@ -1,4 +1,4 @@
 import ruFlag from "./ruFlag.png";
 import uzFlag from "./uzFlag.png";
-
-export { ruFlag, uzFlag };
+import logo from "./logo.png";
+export { ruFlag, uzFlag, logo };

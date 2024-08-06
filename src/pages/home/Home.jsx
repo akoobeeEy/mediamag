@@ -1,9 +1,11 @@
+import HomeTop from "./components/home-top/HomeTop"
 
  const Home = () => {
   return (
-    <div>
-      Home
-    </div>
+    <section>
+      <HomeTop/>
+      
+    </section>
   )
 }
 

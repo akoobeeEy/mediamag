@@ -7,3 +7,30 @@
 body {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
+
+@layer components {
+  .grid3 {
+    @apply grid grid-cols-3 gap-4;
+  }
+}
+
+.carousel-item{
+  position: absolute;
+  content: '';
+  z-index: 1;
+  top: -512px;
+  left: 0;
+  width: 500px;
+  height: 1077px;
+  background: #e13439;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  overflow: hidden;
+}
+
+.carousel-body {
+  position: relative;
+  z-index: 2;
+  width: 370px;
+  height: 492px;
+}
